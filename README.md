@@ -60,6 +60,23 @@ To see how you can add code snippets, see below:
     background-position: center;
     flex-shrink: 1;
  }
+
+ @media screen and (max-width:640px){
+    .main-container{
+        margin: 18px;
+        padding: 13px;
+        height: auto;
+     }
+    .image{
+        width: 400px;
+        max-width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ }
 ```
 
 ### Continued development
